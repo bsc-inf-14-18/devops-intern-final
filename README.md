@@ -14,4 +14,21 @@ Script located in scripts/sysinfo.sh
 
 ## Step 3: Docker
 Dockerfile created to containerize Python app.
+## Step 4: CI/CD
+GitHub Actions automatically runs the script on every push.
 
+## Step 5: Nomad
+Nomad job file created in nomad/hello.nomad
+
+## Step 6: Monitoring
+Loki setup instructions available in monitoring/loki_setup.txt
+
+--
+
+## Note
+Due to limited system resources (2GB RAM), Docker and Nomad were configured and documented but not fully executed locally. However, all configurations follow standard DevOps practices.
+
+---
+
+## Conclusion
+This project shows understanding of DevOps workflow from development to deployment and monitoring.
