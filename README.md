@@ -9,3 +9,9 @@ This project demonstrates a basic DevOps workflow including Git, scripting, Dock
 - Created repository
 - Added README file
 - Added hello.py script that prints "Hello, DevOps!"
+## Step 2: Linux Script
+Script located in scripts/sysinfo.sh
+
+## Step 3: Docker
+Dockerfile created to containerize Python app.
+
