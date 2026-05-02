@@ -1,0 +1,12 @@
+Loki Setup (Documentation)
+
+Step 1:
+Run Loki using Docker:
+docker run -d -p 3100:3100 grafana/loki
+
+Step 2:
+View logs using:
+docker logs <container_id>
+
+Explanation:
+Loki is used for log aggregation. It collects logs from applications and containers.
